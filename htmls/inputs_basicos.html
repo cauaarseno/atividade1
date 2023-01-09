@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs Básicos</title>
+</head>
+<body>
+    <h1>Inputs Básicos</h1>
+
+    <form action="rdr2.html" method="post">
+        <label>Nome</label> <br><!--Label é usada para colocar o título de um campo-->
+        <input placeholder="Insira seu nome" type="text" name="Nome" class="" id="" /> <br> <!--Nome, usada para nomear o input feito pro backend. Class, nome de uma classe utilizada em CSS. ID, utilizado para javascript.-->
+
+        <label>Senha</label> <br>
+        <input placeholder="Insira sua senha" type="password" name="senha" /> <br> <!--/> forma simplificada de fechamento de tag-->
+        
+        <br>
+        <label>Time</label><br>
+        <input type="text" placeholder="Insira seu time" name="time" list="lista_times">
+        <datalist id="lista_times">
+            <option value="São Paulo"/>
+            <option value="Palmeiras"/>
+            <option value="Santos"/>
+            <option value="Flamengo"/>
+        </datalist>
+
+<br><br><br>
+        <label>Opções</label>
+        <input type="radio" name="opção"/>A
+        <input type="radio" name="opção"/>B
+        <input type="radio" name="opção"/>C <br>
+
+        <label>Múltipla Escolha</label>
+        <input type="checkbox" name="multiplo"/>1
+        <input type="checkbox" name="multiplo"/>2
+        <input type="checkbox" name="multiplo"/>3 <br>
+
+
+        <label>Texto</label> <br>
+        <textarea name="texto" id="" cols="30" rows="5"></textarea> <br>
+
+        <label>Arquivo</label> <br>
+        <input type="file" name="arquivo"> <br>
+
+        <label>Sexo</label> <br>
+        <select name="sexo" id="">
+            <option value="">Selecione</option> <!--Vazio para melhor visualização-->
+            <option value="Masculino">Masculino</option>
+            <option selected value="Feminino">Feminino</option> <!--option selected para seleção padrão-->
+        </select> <br>
+    
+
+        <label>Marcas de Carros</label> <br>
+        <select name="carro" id="">
+            <option value="">Selecione</option>
+            <optgroup label="Alemães">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+            </optgroup>
+            <optgroup label="Suecos">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            </optgroup>
+
+            <br><br><br>
+            <input type="button" value='Botão sem ação'>    <br><br>
+
+            <input type="submit" value="Enviado">
+        </select>
+    </form>
+</body>
+</html>
