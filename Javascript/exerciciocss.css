@@ -1,0 +1,11 @@
+h1 {
+    color: red;
+}
+
+#box {
+    display: block;
+    width: 500px;
+    height: 500px;
+    color: blanchedalmond;
+    background-color: brown;
+}
