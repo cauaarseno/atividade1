@@ -1,0 +1,11 @@
+#box1 {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.paragrafo {
+    background-color: chartreuse;
+    font-size: 18px;
+    padding: 20px;
+}
