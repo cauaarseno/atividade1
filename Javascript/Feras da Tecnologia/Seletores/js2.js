@@ -1,5 +1,7 @@
+alert('Será que vai?')
+
 function funcaoTeste() {
-    //alert('Estou Aqui')
+    //alert('DUNHA')
     document.getElementById("box1").style.backgroundColor = "blue";
     document.getElementById("box1").style.textAlign = "center";
     document.getElementById("box1").style.color = "white";
