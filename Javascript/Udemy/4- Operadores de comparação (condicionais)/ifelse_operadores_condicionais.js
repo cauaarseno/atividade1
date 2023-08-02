@@ -7,4 +7,3 @@ if (media >= 7) {
 }else {
     document.write('Você não passou de ano.')
 }
-console.log(nota2)
