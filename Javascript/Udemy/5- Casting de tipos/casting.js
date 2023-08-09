@@ -8,4 +8,4 @@ var variavel3 = 10
 var variavel4 = 20
 
 //document.write(variavel1 + variavel2)
-document.write(variavel3.toString() + variavel4.toString()) //ocorrerá a concatenação   
+document.write(variavel3.toString() + variavel4.toString()) //ocorrerá a concatenação                                                      
